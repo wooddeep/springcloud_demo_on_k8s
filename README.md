@@ -54,8 +54,8 @@
    
 #### refresh config on config server
 `
-curl -X POST http://localhost:8765/actuator/bus-refresh
--- localhost：此处是登录到config-server的pod中执行的curl命令，故而ip地址为localhost
+curl -X POST http://localhost:8765/actuator/bus-refresh\n
+-- localhost：此处是登录到config-server的pod中执行的curl命令，故而ip地址为localhost\n
 -- 8765：config server的端口
 `
 
