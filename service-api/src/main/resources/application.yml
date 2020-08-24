@@ -12,8 +12,8 @@ spring:
   application:
     name: service-api
 
-  rabbitmq:
-    host: ${RABBITMQ_HOST:localhost}
-    port: ${RABBITMQ_PORT:5672}
-    username: guest
-    password: guest
+  #rabbitmq:
+  #  host: ${RABBITMQ_HOST:172.26.144.132}
+  #  port: ${RABBITMQ_PORT:5672}
+  #  username: guest
+  #  password: guest

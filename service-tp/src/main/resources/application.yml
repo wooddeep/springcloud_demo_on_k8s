@@ -23,3 +23,7 @@ spring:
     expose-session-attributes: false
     request-context-attribute: request
     suffix: .html
+
+feign:
+  hystrix:
+    enabled: true    

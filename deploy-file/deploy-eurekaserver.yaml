@@ -31,7 +31,7 @@ spec:
  
         - name: eureka-server-instance
  
-          image: registry.cn-hangzhou.aliyuncs.com/magiclian/eureka-server:v3
+          image: registry.cn-hangzhou.aliyuncs.com/wooddeep/eureka-server:v3
  
           ports:
  

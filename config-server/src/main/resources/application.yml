@@ -2,6 +2,13 @@
 server:
   port: 8765
 
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_URL:localhost}:8761/eureka
+
 spring:
   application:
     name: config-server
@@ -10,7 +17,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/magicLian/springcloud_demo_on_k8s.git
+          uri: https://github.com/wooddeep/springcloud_demo_on_k8s.git
           search-paths: adminConfig
-#          username: *************
-#          password: *************
+          username: wooddeep
+          password: Iamlihan123
