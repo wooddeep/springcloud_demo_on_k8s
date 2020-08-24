@@ -41,6 +41,8 @@
 ### run service-tp
 `kubectl create/apply -f deploy-file/service-tp.yaml`
 
+### others
+
 `kubectl get/delete deploy,pod,svc --all-namespaces/-n default`
 
 `kubectl describe pod POD_ID`
