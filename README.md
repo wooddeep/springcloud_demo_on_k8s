@@ -32,6 +32,9 @@
 ### run eureka
 `kubectl create/apply -f deploy-file/deploy-eurekaserver.yaml`
 
+#### 查询注册的服务
+`curl http://192.168.140.126:30719/eureka/apps`
+
 ### run config server
 `kubectl create/apply -f deploy-file/config-server.yaml`
 
