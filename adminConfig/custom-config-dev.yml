@@ -5,3 +5,7 @@ service_api:
   aaa:
     bbbb: 333555
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bootdb?useUnicode=true&characterEncoding=utf8
+
