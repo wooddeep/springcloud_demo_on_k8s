@@ -20,4 +20,4 @@ spring:
           uri: https://github.com/wooddeep/springcloud_demo_on_k8s.git
           search-paths: adminConfig
           username: wooddeep
-          password: Iamlihan(you kown)
+          password: Iamlihan(you guess)
